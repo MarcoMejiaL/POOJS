@@ -1,3 +1,27 @@
+/**
+ * @author PAQUITO
+ * <p> marco</p>
+ * 
+ * 
+ */
+
+class Comment {
+    constructor({
+        content,
+        studendName,
+        studenrRole = "estidiantes",
+
+    }){
+        this.content = content;
+        this.studendName = studendName;
+        this.studenrRole = studenrRole;
+        this.likes = 0;
+    }
+    publicar(){
+        console.log(this.studendName + " DSALKJDLSAJDKLSJADKL");
+    }
+}
+
 function videoPlay(id) {
     const urlSecreta = "https://platziultrasecretomasquelanasa.com/" + id;
     console.log("Se está reproduciendo desde la url " + urlSecreta);
