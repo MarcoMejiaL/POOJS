@@ -1,0 +1,58 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+/* .container{
+   display: flex;
+   align-items: center;
+   align-content: center;
+    
+    
+} */
+.container__card{
+    padding: 20px;
+    margin: 40px;
+    width: 300px;
+    border: 1px solid rgba(82, 81, 81,0.5);
+  
+}
+.card__title{
+    margin-bottom: 10px;
+}
+.card__title h2{
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 100;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card__photo {
+    
+    text-align: center;
+    margin-bottom: 10px;
+    
+    padding: 10px;
+}
+.card__photo img{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+
+
+}
+.card__cotntent {
+    text-align: center;
+
+}
+.card__cotntent h3{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    opacity: 0.5;
+}
+.card__cotntent p{
+    opacity: 0.5;
+    letter-spacing: 2px;
+    
+}

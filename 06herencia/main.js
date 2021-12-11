@@ -24,6 +24,22 @@ function videoPlay(id) {
     }
   }
   
+  class Comment {
+    consturctor({
+      coment,
+      studentName,
+      studentRole ="estudiante"
+    }){
+      this.coment = coment;
+      this.studentName = studentName;
+      this.studentRole = studentRole
+      this.likes =0;
+    }
+
+    publicar(){
+      console.log(this.studentName + this.studentRole);
+    }
+  }
   
   
   
@@ -129,6 +145,13 @@ function videoPlay(id) {
       };
       this.approvedCourses = approvedCourses;
       this.learningPaths = learningPaths;
+    }
+
+    publicarComentario(comentario){
+      const comment = new Comment({
+        content:commentContent,
+        studentName: this.name,
+      })
     }
   }
 /**
